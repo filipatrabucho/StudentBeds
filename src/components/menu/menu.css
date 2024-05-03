@@ -1,0 +1,35 @@
+.aside-menu {
+    width: 250px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #5AABDC;
+    color: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.submenu li {
+    padding: 5px;
+    cursor: pointer;
+}
